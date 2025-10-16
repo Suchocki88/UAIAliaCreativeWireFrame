@@ -383,16 +383,38 @@
         /* RESPONSIVE: Card View (750px) */
         @media (max-width: 999px) {
             .alia-container {
-                width: 750px;
+                width: 100%;
+                max-width: 750px;
             }
             
             .conversation-panel {
-                width: 750px;
+                width: 100%;
                 border-right: none;
             }
             
             .brand-banner {
-                width: 750px;
+                width: 100%;
+            }
+            
+            .brand-banner img {
+                object-fit: contain;
+            }
+            
+            .upload-zone {
+                padding: 15px;
+            }
+            
+            .chat-input-container {
+                padding: 15px;
+            }
+            
+            .chat-input-wrapper {
+                gap: 8px;
+            }
+            
+            .send-btn {
+                padding: 12px 20px;
+                flex-shrink: 0;
             }
             
             .artifact-panel {
